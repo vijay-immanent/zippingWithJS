@@ -2,14 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="fundabl_logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <input type="file" multiple id="inputFiles" />
-    <ol id="filesList"></ol>
-    <button id="generateZip">Zip</button>
+    <div >
+      <fieldset style="background-color: rgba(20, 120, 0, 0.1); padding: 1rem;">
+        <legend>Generate zip from local files</legend>
+        <input  type="file" multiple id="inputFiles" />
+        <ol id="filesList"></ol>
+        <button id="generateZip">Zip</button>
+      </fieldset>
+      <fieldset style="background-color: rgba(20, 120, 0, 0.1); padding: 1rem;">
+        <legend>Generate zip from remote files</legend>
+        <ol id="remoteFilesList"></ol>
+        <button id="remoteGenerateZip">Zip</button>
+      </fieldset>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
