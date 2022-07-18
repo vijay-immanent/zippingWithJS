@@ -4,7 +4,7 @@ import { saveAs, generateAs } from "./zip";
 import JSZip from "jszip";
 
 async function fetchFile(body: string) {
-  return fetch("http://localhost:4040/files/object", {
+  return fetch("https://kdsjbilbtk.execute-api.ap-southeast-2.amazonaws.com/files/object", {
     method: "POST",
     headers: { Authorization, "Content-Type": "application/json" },
     body,
