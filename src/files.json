@@ -6,7 +6,8 @@
     "https://fundabl-static-assets.s3.ap-southeast-2.amazonaws.com/qa/zip/Profit%26LossStatement_2.pdf",
     "https://fundabl-static-assets.s3.ap-southeast-2.amazonaws.com/qa/zip/Subscription%2BSummary.xlsx"
   ],
-  "localDev": [
-    "https://fundabl-userdata-dev.s3.ap-southeast-2.amazonaws.com/subscriptions/auth0%7C62ca925e6b933992bca428b4/1657443476798-Subscription%2BSummary.xlsx"
+  "remoteDev": [
+    "https://fundabl-userdata-dev.s3.ap-southeast-2.amazonaws.com/subscriptions/auth0%7C62ca925e6b933992bca428b4/1657443476798-Subscription%2BSummary.xlsx",
+    "https://fundabl-userdata-dev.s3.ap-southeast-2.amazonaws.com/subscriptions/auth0%7C62ce1e57ca571286228a0c48/1657675553589-Fundabl_Transactions.csv"
   ]
 }
